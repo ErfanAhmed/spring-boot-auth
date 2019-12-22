@@ -30,8 +30,7 @@
         <div class="col col-lg-6">
             <div class="cont">
                 <form:form method="POST" modelAttribute="userForm" class="form-signin">
-                    <h2 class="form-signin-heading">Login</h2>
-                    
+                    <h4 class="form-signin-heading">Create New Account</h4>
                     <spring:bind path="username">
                         <div class="form-group ${status.error ? 'has-error' : ''}">
                             <form:input type="text"
@@ -55,7 +54,7 @@
                         </div>
                     </spring:bind>
 
-                    <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
                 </form:form>
             </div>
         </div>
